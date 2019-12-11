@@ -71,7 +71,10 @@ body{
 /*navigation bar*/
 .navbar{
 	width: 100%; 
-	margin-top: 20px;
+	margin: 20px 0;
+        top: 0;
+        position: fixed;
+        z-index: 1;
 }
 
 .navbar a{
@@ -94,10 +97,10 @@ body{
 }
 /*showcase1*/
 .showcase1{
-	margin: 50px 0;
+	margin: 100px 0;
 	width: 100%;
 	padding-bottom: 50px;
-	border-bottom: 1px solid black;
+	border-bottom: 2px solid black;
 }
 
 .showcase1 .showcase-content{
@@ -113,6 +116,7 @@ body{
 }
 
 .showcase1 .showcase-content .btn{
+        color: black;
 	border: 1px solid black;
 	text-decoration: none;
 	padding: 5px 40px;
@@ -126,7 +130,7 @@ body{
 /*showcase2*/
 
 .showcase2{
-	margin: 20px 0;
+	margin: 40px 0;
 }
 
 .showcase2 h2{
@@ -141,6 +145,63 @@ body{
 	font-weight: bold;
 }
 
+
+/*middle image*/
+
 .middle-img{
 	width: 100%;
+}	
+
+/*showcase3*/
+
+.showcase3{
+	margin: 40px 0;
+        padding-bottom: 60px;
+        border-bottom: 2px solid black; 
+} 
+
+.showcase3 h2{
+	font-size: 25px;
 }
+
+.showcase3 div{
+	display: inline-block;
+	width: 33%;
+	padding: 0 10px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.contact-section h2{
+         font-size: 25px;
+}
+
+.contact-section address p{
+         font-zie: 20px;
+         font-weight: bold;  
+}
+
+/*footer section*/
+
+footer{
+          margin-top: 60px;
+          margin-bottom: 40px; 
+}
+
+footer p{
+          width: 400px;
+          margin: 0 auto;  
+          font-size: 20px;
+          font-weight: bold; 
+          text-align: center;
+}
+
+
+/*https://offers.hubspot.com/contact-sales?utm_id=326993346842&utm_medium=paid&utm_source=google&utm_term=Marketing_hubspot_EN&utm_campaign=Marketing_MQLs_EN_AdWords_NAM_NAM_Brand-HubSpot_e_c_804389993&hsa_ver=3&hsa_net=adwords&hsa_acc=2734776884&hsa_kw=hubspot&hsa_grp=43208773113&hsa_mt=e&hsa_cam=804389993&hsa_ad=326993346842&hsa_tgt=kwd-298569398281&hsa_src=g&gclid=CjwKCAiAob3vBRAUEiwAIbs5Tqhs1TS9EkYRNJN_satpW4PzmIyWJIMXulCG2UCRwciS8NVJC7qeCxoCIYEQAvD_BwE*/
+
+
+
+
+
+
+

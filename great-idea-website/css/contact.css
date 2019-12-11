@@ -1,0 +1,82 @@
+
+/*header section*/
+*{
+    font-family: 'Titillium Web', sans-serif;
+}
+header{
+    background: #DCDCDC;
+    width: 100%;
+    padding: 10px 0;
+}
+
+header .logo{
+    width: 250px; 
+    margin-left: 5%; 
+}
+
+
+/*showcase section*/
+
+.showcase{
+    position: relative;
+    width: 100%;
+    padding: 50px 0;
+    height: 50vh;
+}
+
+.showcase-top{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.showcase-top h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.showcase-top p{
+    font-size: 20px;
+}
+
+
+/*contact section*/
+.contact{
+    background: #DCDCDC;
+    padding: 30px 0;
+}
+
+.contact h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.contact div{
+    display:inline-block;
+    width: 33%;
+	padding: 0 10px;
+	font-size: 20px;
+    box-sizing: border-box;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact div h2{
+    font-size: 20px;
+}
+
+
+.contact div a{
+    text-decoration: none;
+    padding: 10px 40px;
+    border: 1px solid black;
+    color: black;
+    background: white;
+}
+
+.contact div a:hover{
+    background: #DCDCDC;
+}
